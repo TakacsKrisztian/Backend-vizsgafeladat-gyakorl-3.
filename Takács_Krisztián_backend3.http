@@ -1,0 +1,6 @@
+@Takács_Krisztián_backend3_HostAddress = http://localhost:5036
+
+GET {{Takács_Krisztián_backend3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Controllers.UszoebController",
+    "Method": "Post",
+    "RelativePath": "api/AddVersenyzo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "versenyzo",
+        "Type": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Models.CreateVersenyzoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Models.VersenyzoDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Controllers.UszoebController",
+    "Method": "Delete",
+    "RelativePath": "api/DeleteVersenyzo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Controllers.UszoebController",
+    "Method": "GetCount",
+    "RelativePath": "api/GetVersenyzokSzama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Controllers.UszoebController",
+    "Method": "Get",
+    "RelativePath": "api/GetVersenyzoNev",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Controllers.UszoebController",
+    "Method": "Put",
+    "RelativePath": "api/UpdateVersenyzo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UID",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "modifyVersenyzoDto",
+        "Type": "Tak\u00E1cs_Kriszti\u00E1n_backend3.Models.ModifyVersenyzoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
